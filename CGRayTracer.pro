@@ -2,10 +2,10 @@
 # codelite's qmake configuration: default
 # codelite's qmake exec line    : qmake
 ##########################################
-DESTDIR        = /Users/FOldenburg/dev/CGRayTracer/
+DESTDIR        = ./
 TEMPLATE       = app
 CONFIG         = release qt lex yacc uic resources warn_on precompile_header
-MAKEFILE       = /Users/FOldenburg/dev/CGRayTracer/CGRayTracer.mk
+MAKEFILE       = ./CGRayTracer.mk
 OBJECTS_DIR    = ./Debug
 TARGET         = ./Debug/CGRayTracer
 INCLUDEPATH    = .
@@ -17,36 +17,36 @@ LIBS           =
 LIBS           += 
 LIBS           += 
 SOURCES     = \
-             /Users/FOldenburg/dev/CGRayTracer/src/cube.cpp\
-             /Users/FOldenburg/dev/CGRayTracer/src/object.cpp\
-             /Users/FOldenburg/dev/CGRayTracer/src/rect.cpp\
-             /Users/FOldenburg/dev/CGRayTracer/src/sphere.cpp\
-             /Users/FOldenburg/dev/CGRayTracer/src/triangle.cpp\
-             /Users/FOldenburg/dev/CGRayTracer/src/octree.cpp\
-             /Users/FOldenburg/dev/CGRayTracer/src/vector3d.cpp\
-             /Users/FOldenburg/dev/CGRayTracer/src/vectormath.cpp\
-             /Users/FOldenburg/dev/CGRayTracer/src/scene.cpp\
-             /Users/FOldenburg/dev/CGRayTracer/src/raytracer.cpp\
-             /Users/FOldenburg/dev/CGRayTracer/src/main.cpp\
-             /Users/FOldenburg/dev/CGRayTracer/src/mainwindow.cpp\
-             /Users/FOldenburg/dev/CGRayTracer/src/oglwidget.cpp\
-             /Users/FOldenburg/dev/CGRayTracer/src/picturebox.cpp\
+             ./src/cube.cpp\
+             ./src/object.cpp\
+             ./src/rect.cpp\
+             ./src/sphere.cpp\
+             ./src/triangle.cpp\
+             ./src/octree.cpp\
+             ./src/vector3d.cpp\
+             ./src/vectormath.cpp\
+             ./src/scene.cpp\
+             ./src/raytracer.cpp\
+             ./src/main.cpp\
+             ./src/mainwindow.cpp\
+             ./src/oglwidget.cpp\
+             ./src/picturebox.cpp\
 
 HEADERS     = \
-             /Users/FOldenburg/dev/CGRayTracer/src/cube.h\
-             /Users/FOldenburg/dev/CGRayTracer/src/object.h\
-             /Users/FOldenburg/dev/CGRayTracer/src/rect.h\
-             /Users/FOldenburg/dev/CGRayTracer/src/sphere.h\
-             /Users/FOldenburg/dev/CGRayTracer/src/triangle.h\
-             /Users/FOldenburg/dev/CGRayTracer/src/octree.h\
-             /Users/FOldenburg/dev/CGRayTracer/src/vector3d.h\
-             /Users/FOldenburg/dev/CGRayTracer/src/vectormath.h\
-             /Users/FOldenburg/dev/CGRayTracer/src/scene.h\
-             /Users/FOldenburg/dev/CGRayTracer/src/raytracer.h\
-             /Users/FOldenburg/dev/CGRayTracer/src/lightsource.h\
-             /Users/FOldenburg/dev/CGRayTracer/src/mainwindow.h\
-             /Users/FOldenburg/dev/CGRayTracer/src/oglwidget.h\
-             /Users/FOldenburg/dev/CGRayTracer/src/picturebox.h\
+             ./src/cube.h\
+             ./src/object.h\
+             ./src/rect.h\
+             ./src/sphere.h\
+             ./src/triangle.h\
+             ./src/octree.h\
+             ./src/vector3d.h\
+             ./src/vectormath.h\
+             ./src/scene.h\
+             ./src/raytracer.h\
+             ./src/lightsource.h\
+             ./src/mainwindow.h\
+             ./src/oglwidget.h\
+             ./src/picturebox.h\
 
 FORMS       = \
 
